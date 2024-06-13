@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+  "module": "commonjs",
+  "target": "es2021",
+  "types": ["node"],
+  "outDir": "build",
+  "strict": false,
+  "esModuleInterop": true,
+  "forceConsistentCasingInFileNames": true,
+  "skipLibCheck": true,
+  "removeComments": true,
+  "allowJs": true,
+  },
+  "include": ["src//*"],
+  "exclude": ["node_modules", "/*.spec.ts"]
+}
