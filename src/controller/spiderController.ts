@@ -77,6 +77,10 @@ function getAllScanInstance(){
   return result
 }
 
+function getAllCorrelationsInTable() {
+  const queryCorrelations = 'SELECT * FROM tbl_scan_correlation_results;'
+}
+
 /**
  * This function requires an id to extract the related records in the scan_instance_id table.
  */

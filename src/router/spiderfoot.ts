@@ -49,6 +49,7 @@ router.get("/correlacion-by-instance-id/", (req, res) => {
   
   const result = getCorrelationByInstanceId(id);
   result.then((data) => {
+    console.log(data);
     res.send(data);
   });
 })

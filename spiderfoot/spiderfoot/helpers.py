@@ -84,7 +84,7 @@ class SpiderFootHelpers():
         """
         path = os.environ.get('SPIDERFOOT_DATA')
         if not path:
-            path = f"{Path.home()}/.spiderfoot/"
+            path = f"spiderfoot/db"
         if not os.path.isdir(path):
             os.makedirs(path, exist_ok=True)
         return path
@@ -98,7 +98,7 @@ class SpiderFootHelpers():
         """
         path = os.environ.get('SPIDERFOOT_CACHE')
         if not path:
-            path = f"{Path.home()}/.spiderfoot/cache"
+            path = f"spiderfoot/cache"
         if not os.path.isdir(path):
             os.makedirs(path, exist_ok=True)
         return path
@@ -112,7 +112,7 @@ class SpiderFootHelpers():
         """
         path = os.environ.get('SPIDERFOOT_LOGS')
         if not path:
-            path = f"{Path.home()}/.spiderfoot/logs"
+            path = f"spiderfoot/logs"
         if not os.path.isdir(path):
             os.makedirs(path, exist_ok=True)
         return path
