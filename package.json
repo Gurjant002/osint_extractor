@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "express": "^4.19.2",
-    "install": "^0.13.0"
+    "install": "^0.13.0",
+    "sqlite3": "^5.1.7"
   }
 }
